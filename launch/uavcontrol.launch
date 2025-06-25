@@ -1,0 +1,13 @@
+
+<launch>
+  <node pkg="fkie_master_discovery" type="master_discovery" name="master_discovery" args="_mcast_group:=224.0.0.251" output="screen"/>
+  <node pkg="fkie_master_sync" type="master_sync" name="master_sync" output="screen"/>
+
+  <include file="$(find mavros)/launch/px4.launch">
+    <arg name="fcu_url" value="udp://:14540@127.0.0.1:14557" />
+  </include>
+
+  <node pkg="ut_uav_control" type="offboard_node_uav1" name="offboard_control_uav1" output="screen"/>
+
+</launch>
+
