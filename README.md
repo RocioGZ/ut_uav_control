@@ -14,7 +14,7 @@ roslaunch mocap_bridge optitack_bridge.launch
 
 ### Terminal 2 (T2)
 
-Lanza el puente free-floating:
+Lanza el nodo para free-floating:
 
 ```bash
 roslaunch ut_uav_control uavcontrol.launch
