@@ -7,6 +7,7 @@ Instalar en la Raspi:
 - Ubuntu 20
 - Ros noetic
 - Mavros
+- mocap-bridge (de grvc-utils)
 
 ## Instrucciones
 
