@@ -2,6 +2,12 @@
 
 Este repositorio contiene los pasos para ejecutar la demo de AROSA.
 
+## Requisitos
+Instalar en la Raspi:
+- Ubuntu 20
+- Ros noetic
+- Mavros
+
 ## Instrucciones
 
 ### Terminal 1 (T1)
